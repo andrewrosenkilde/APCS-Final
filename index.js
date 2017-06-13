@@ -1,4 +1,16 @@
 $(document).ready(function(){
-	$("#splashscreen").hide().delay(1000);
-	$("#splashscreen").fadeTo(3000, 1).delay(800).fadeOut(3000);
+	$(".splashscreen p").toggle().delay(1000);
+	$(".splashscreen p").fadeTo(800, 1, function() {
+		$(".splashscreen").delay(2000).slideUp(1000);
+	});
+	$(".projectlist").mouseover(function() {
+		$(this).animate({
+			width: '+= 10%'
+		});
+	});
+	$("projectlist div").mouseleave(function() {
+		$(this).animate({
+			width: '-= 10%'
+		});
+	});
 });

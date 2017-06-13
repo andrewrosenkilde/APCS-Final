@@ -1,0 +1,62 @@
+.splashscreen {
+	display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    opacity: 1;
+    z-index: 3;
+    background-color: white;
+}
+
+.splashscreen .splashtext {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+	font-size: 3em;
+	font-family: Spectral;
+	z-index: 4;
+}
+
+.projectlist {
+	display: block;
+	position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    opacity: 1;
+}
+
+.projectlist #tilelink, #balllink, #stringlink {
+	display: block;
+	position: fixed;
+	width: 33%;
+	height: 100%;
+}
+
+.projectlist #balllink {
+	left: 33%;
+	background-color: blue;
+}
+
+.projectlist #stringlink {
+	left: 66%;
+	background-color: red;
+}
+
+.projectlist p {
+	height: 100%;
+	width: 100%;
+	font-family: Spectral;
+	font-size: 3em;
+	font-style: bold;
+	vertical-align: middle;
+	text-align: center;
+	background-color: gray;
+}
