@@ -4,7 +4,7 @@ Website for my AP CompSci final project:
 https://andrewrosenkilde.github.io/APCS-Final
 ------
 
-###This website uses jQuery to create flashy animations and enable user interactivity.
+### This website uses jQuery to create flashy animations and enable user interactivity.
 
 **Resources Used**
 1. jQuery + jQuery Documentation - The jQuery Foundation - https://api.jquery.com/
