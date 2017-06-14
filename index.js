@@ -4,14 +4,16 @@ $(document).ready(function(){
 		$(".splashscreen").delay(2000).slideUp(1000);
 	});
 	$(".projectlist div").hover(function() {
-		$(this).animate({
+		$(this).animate(
+		{
 			opacity: '1'
-		});
+		}, 250
+		);
 	}, function() {
 		$(this).animate(
 		{
 			opacity: '0.75'
-		}, 200
+		}, 250
 		);
 	});
 });
