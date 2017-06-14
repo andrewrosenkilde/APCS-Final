@@ -2,8 +2,12 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="index.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src="jQuery/index.js"></script>
+		<script
+  			src="https://code.jquery.com/jquery-1.12.4.js"
+  			integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+  			crossorigin="anonymous">
+  		</script>
+		<script src="index.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
 		<title>APCS Final Project</title>
 	</head>
@@ -18,15 +22,18 @@
 		</div>
 		<!--holds the project buttons-->
 		<div class="projectlist">
-			<div id="tilelink">
-				<p>TEST</p>
-			</div>
-			<div id="balllink">
-				<p>TEST</p>
-			</div>
-			<div id="stringlink">
-				<p>TEST</p>
-			</div>
+			<a href="ball.html">
+				<div id="balllink">
+					<p>Ball Game</p>
+					<img src="ball.png">
+				</div>
+			</a>
+			<a href="strings.html">
+				<div id="stringlink">
+					<p>Guitar Strings</p>
+					<img src="strings.png">
+				</div>
+			</a>
 		</div>
 	</body>
 </html>

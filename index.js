@@ -3,14 +3,13 @@ $(document).ready(function(){
 	$(".splashscreen p").fadeTo(800, 1, function() {
 		$(".splashscreen").delay(2000).slideUp(1000);
 	});
-	$(".projectlist div").mouseover(function() {
+	$(".projectlist div").hover(function() {
 		$(this).animate({
-			width: '+= 10%'
+			opacity: '1'
 		});
-	});
-	$("projectlist div").mouseleave(function() {
+	}, function() {
 		$(this).animate({
-			width: '-= 10%'
+			opacity: '0.75'
 		});
 	});
 });
