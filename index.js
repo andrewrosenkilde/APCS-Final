@@ -8,8 +8,10 @@ $(document).ready(function(){
 			opacity: '1'
 		});
 	}, function() {
-		$(this).animate({
+		$(this).animate(
+		{
 			opacity: '0.75'
-		});
+		}, 200
+		);
 	});
 });
