@@ -7,7 +7,6 @@
     top: 0;
     z-index: 1;
     opacity: 1;
-    background-color: white;
 }
 
 .stringWrapper div {
@@ -17,23 +16,23 @@
 }
 
 #lowstring {
-	background-color: green;
+	background-color: #D7CEC7;
 }
 
 #midstring {
 	left: 33%;
-	background-color: blue;
+	background-color: #76323F;
 }
 
 #highstring {
 	left: 66%;
-	background-color: red;
+	background-color: #C09F80;
 }
 
 #lowstring button {
 	display: block;
 	margin: auto;
-	background-color: green;
+	background-color: #D7CEC7;
 	padding: none;
 	border: none;
 	background: none;
@@ -42,7 +41,7 @@
 #midstring button {
 	display: block;
 	margin: auto;
-	background-color: blue;
+	background-color: #76323F;
 	padding: none;
 	border: none;
 	background: none;
@@ -51,7 +50,7 @@
 #highstring button {
 	display: block;
 	margin: auto;
-	background-color: red;
+	background-color: #D7CEC7;
 	padding: none;
 	border: none;
 	background: none;
