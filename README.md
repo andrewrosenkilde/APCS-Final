@@ -1,7 +1,7 @@
 # APCS-Final
 Website for my AP CompSci final project:
-======
-##https://andrewrosenkilde.github.io/APCS-Final
+------
+https://andrewrosenkilde.github.io/APCS-Final
 ------
 
 ###This website uses jQuery to create flashy animations and enable user interactivity.
