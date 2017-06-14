@@ -9,11 +9,13 @@ $(document).ready(function(){
 			opacity: '1'
 		}, 250
 		);
+		$(this).clearQueue();
 	}, function() {
 		$(this).animate(
 		{
 			opacity: '0.75'
 		}, 250
 		);
+		$(this).clearQueue();
 	});
 });
