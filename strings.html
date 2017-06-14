@@ -2,12 +2,34 @@
 <html>
 	<head>
 		<link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="styling.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src="index.js"></script>
+		<link rel="stylesheet" type="text/css" href="strings.css">
+		<script
+  			src="https://code.jquery.com/jquery-1.12.4.js"
+  			integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+  			crossorigin="anonymous">
+  		</script>
+  		<script src='jquery-play-sound-master/jquery.playSound.js'>
+  		</script>
+		<script src="strings.js"></script>
 		<title>Strings - APCS Final Project</title>
 	</head>
 	<body>
-		
+		<div class = "stringWrapper">
+			<div id = "lowstring">
+				<button style="height:100%;" onclick="$.playSound('F.wav')">
+					<img src="string.png">
+				</button>
+			</div>
+			<div id = "midstring">
+				<button style="height:75%;" onclick="$.playSound('A.wav')">
+					<img src="string.png">
+				</button>
+			</div>
+			<div id = "highstring">
+				<button style="height:50%;" onclick="$.playSound('C.wav')">
+					<img src="string.png">
+				</button>
+			</div>
+		</div>
 	</body>
 </html>

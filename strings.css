@@ -1,0 +1,58 @@
+.stringWrapper {
+	display: block;
+	position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    opacity: 1;
+    background-color: white;
+}
+
+.stringWrapper div {
+	position: absolute;
+	height: 100%;
+	width: 33%;
+}
+
+#lowstring {
+	background-color: green;
+}
+
+#midstring {
+	left: 33%;
+	background-color: blue;
+}
+
+#highstring {
+	left: 66%;
+	background-color: red;
+}
+
+#lowstring button {
+	display: block;
+	margin: auto;
+	background-color: green;
+	padding: none;
+	border: none;
+	background: none;
+}
+
+#midstring button {
+	display: block;
+	margin: auto;
+	background-color: blue;
+	padding: none;
+	border: none;
+	background: none;
+}
+
+#highstring button {
+	display: block;
+	margin: auto;
+	background-color: red;
+	padding: none;
+	border: none;
+	background: none;
+}

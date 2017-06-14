@@ -1,3 +1,3 @@
 $(document).ready(function() {
-	$('body').jGravity();
+    $('div').jGravity();
 });
